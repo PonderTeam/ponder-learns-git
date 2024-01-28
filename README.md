@@ -37,4 +37,7 @@ This repository is to help our team learn how to use git and github. Here is a l
     * [Resolving conflicts on Github](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github)
     * [Resolving conflicts using command line](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
     * You can also resolve them using your IDE/editor
-12. Profit!!!
+12. Pull changed from the remote to your machine
+    * [git pull](https://github.com/git-guides/git-pull)
+    * Updates the files on your device if someone else has pushed changed to the remote repository.
+13. Profit!!!
