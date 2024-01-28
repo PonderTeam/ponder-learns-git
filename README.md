@@ -1,7 +1,7 @@
 # Start Here
 This repository is to help our team learn how to use git and github. Here is a link to read more about [git and github](https://docs.github.com/en/get-started/quickstart/about-github-and-git)
 
-## Steps
+## Steps for Git
 1. Install git and/or github desktop on your device.
     * [git download](https://git-scm.com/)
     * [github desktop](https://desktop.github.com/)
@@ -41,3 +41,34 @@ This repository is to help our team learn how to use git and github. Here is a l
     * [git pull](https://github.com/git-guides/git-pull)
     * Updates the files on your device if someone else has pushed changed to the remote repository.
 13. Profit!!!
+
+## Steps for Hello World
+We are using the [Hello World Tutorial](https://angular.dev/tutorials/first-app/hello-world) from [Angular.dev](https://angular.dev/)
+### Tools Needed
+1. IDE, like VS code
+2. [npm installed](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+3. [Node.js installed](https://nodejs.org/en/download/)
+    * check that your version of node is meets the [requirements for angular](https://unpkg.com/browse/@angular/core@17.1.1/package.json)
+4. Install [Angular CLI](https://angular.dev/tools/cli)
+    * Run:
+  
+    ```
+    npm install -g @angular/cli.
+    ```
+    * You can use any version of node and angular for this tutorial as long as it works. This isn't production code.
+  
+
+### Steps to Run app
+1. Navigate to this repo's directory in your terminal
+    * It should already be there if you open the terminal from in VS code from the folder
+2. Run
+    ```
+    npm install
+    ```
+3. Run
+   ```
+   ng serve
+   ```
+4. Go to `http://localhost:4200/` in your browser to see the webpage.
+
+Note: If you get warnings during these steps, and `npm audit fix` does not fix them, don't worry. It will probably still run.
