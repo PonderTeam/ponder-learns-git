@@ -17,7 +17,7 @@ This repository is to help our team learn how to use git and github. Here is a l
     * [About commits](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)
     * [Overview of command line commits](https://github.com/git-guides/git-commit)
     * On github, a commit with two messages will show the first message as a preview and the second message when the commit is clicked. Please make the first message a brief description of the commit and the second message a more detailed description of what was changed
-  ![commit](./imgages/example_commit.png)
+  ![commit](./images/example_commit.png)
     * **Example: Command Line Commit**
       
           git commit -m "Changed log file output" -m "Now when unit test fails, the error message {error_msg} is added to the log file. Changes made in files Logger.ts and app.component.ts
