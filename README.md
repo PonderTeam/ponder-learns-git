@@ -60,7 +60,7 @@ We are using the [Hello World Tutorial](https://angular.dev/tutorials/first-app/
 
 ### Steps to Run app
 1. Navigate to this repo's directory in your terminal
-    * It should already be there if you open the terminal from in VS code from the folder
+    * It should already be there if you open the terminal in VS code from the folder
 2. Run
     ```
     npm install
